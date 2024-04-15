@@ -67,3 +67,8 @@ img {
 a {
   text-decoration: none;
 }
+
+footer {
+  text-align: center;
+  border: 1px dashed green;
+}
