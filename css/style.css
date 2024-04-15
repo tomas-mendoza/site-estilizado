@@ -1,0 +1,69 @@
+aside {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  margin-left: 0px;
+  width: 100px;
+  height: 100vh;
+}
+
+h1 {
+  text-align: center;
+}
+
+h3 {
+  text-align: end;
+}
+
+header {
+  padding: 10px 15px 10px 10px;
+  margin-left: 15px;
+}
+
+section {
+  margin-left: 15px;
+}
+
+section:nth-child(2) {
+  text-align: end;
+}
+
+section:nth-child(3) {
+  text-align: center;
+}
+
+section:nth-child(3) > p {
+  width: 30%;
+  display: inline-block;
+}
+
+section:nth-child(5) {
+  text-align: center;
+}
+
+section:nth-child(4) {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+ul {
+  display: inline-block;
+}
+
+ul:nth-child(1) {
+  border: 1px dotted red;
+}
+
+ul:nth-child(2) {
+  border: 1px solid blue;
+}
+
+img {
+  width: 50%;
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
